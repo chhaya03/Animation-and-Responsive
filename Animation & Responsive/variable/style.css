@@ -1,0 +1,20 @@
+/* root is global variable class which can be use in any class */
+
+:root {
+    --dark-red: rgb(126, 19, 19);
+}
+
+
+.container {
+    border: 1px solid brown;
+    background-color: var(--dark-red);
+    height: 300px;
+    width: 300px;
+}
+
+.box {
+    border: 2px solid green;
+    background-color: aqua;
+    color: var(--dark-red);
+
+}
